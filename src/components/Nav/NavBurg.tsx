@@ -10,7 +10,7 @@ const NavBurg = () => {
       {isOpen && (
         <div className="header_top-row--mobile">
           <a href="#!">
-            <img src="/img/logo.svg" alt="Loft House" />
+            <img src="./img/logo.svg" alt="Loft House" />
           </a>
 
           <div className="header_nav">

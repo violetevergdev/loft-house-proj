@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer_grid">
           <div className="footer_logo">
             <a href="#!">
-              <img src="/img/logo.svg" alt="Loft House" />
+              <img src="./img/logo.svg" alt="Loft House" />
             </a>
           </div>
 

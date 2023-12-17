@@ -7,7 +7,7 @@ const HeaderNav = () => {
       <div className="container">
         <div className="header_top-row">
           <a href="#!">
-            <img src="/img/logo.svg" alt="Loft House" />
+            <img src="./img/logo.svg" alt="Loft House" />
           </a>
 
           <div className="header_nav">

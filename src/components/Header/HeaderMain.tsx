@@ -6,7 +6,7 @@ const HeaderMain = () => {
         <a href="#benefits">
           <img
             className="header_title-icon"
-            src="/img/header/icons/mouse.svg"
+            src="./img/header/icons/mouse.svg"
             alt="mouse icon"
           />
         </a>
