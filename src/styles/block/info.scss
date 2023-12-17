@@ -1,0 +1,41 @@
+.info {
+  position: relative;
+  font-size: 18px;
+
+
+  &--map, &--phone {
+    padding-left: 35px;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      width: 21px;
+      height: 21px;
+      transform: translate(0%, -50%);
+
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+
+  &--map::before {
+    background-image: url('/public/img/header/icons/map.svg');
+  }
+
+  &--phone::before {
+    background-image: url('/public/img/header/icons/phone.svg');
+  }
+
+  @include mediaTablet {
+    font-size: 14px;
+
+    &--map, &--phone {
+      padding-left: 26px;
+
+    }
+  }
+}

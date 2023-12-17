@@ -1,0 +1,36 @@
+// Fonts
+
+$font-main: 'Raleway', sans-serif;
+$font-accent: 'Playfair Display', serif;
+$font-secondary: 'Roboto', sans-serif;
+
+// Colors
+
+$dark: #242B33;
+$accent: #D4C17F;
+$white: #FFF;
+$footer: #2D343C;
+$placeholder: #BEBEBE;
+$privacy: #E7E7E7;
+
+// Media
+$tablet : 959px;
+
+// Mixin
+
+@mixin decorNumber {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: $font-accent;
+}
+
+@mixin mediaTablet {
+  @media screen and (max-width: $tablet) {
+    @content
+  }
+}
+
